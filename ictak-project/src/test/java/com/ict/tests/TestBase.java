@@ -16,7 +16,6 @@ public class TestBase {
 	WebDriver driver;
     public static Properties prop = null;
     String driverPath = System.getProperty("user.dir")+"/drivers/chromedriver.exe";
-    //Class
     public static void TestBase() {
         try {
         	//Below line creates an object of Properties called 'prop'
